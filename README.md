@@ -9,21 +9,27 @@ This is meant to be a boilerplate for new users or non-scripters to start using 
 ## What's Included
 
 **NativeUI-Picker-[Basic] -v85**
+
 This project has the basic setup for the NativeUI and uses the events to change a material on a plane
 
 **NativeUI-Picker-[Animation] -v85**
+
 This project has the basic setup for the NativeUI and uses the events to change a material on a plane and rotate the plane
 
 **NativeUI-Picker-[Objects] -v85**
+
 This project has the basic setup for the NativeUI and uses the events to select one of three planes, then change a material on the selected plane and rotate the plane
 
 **NativeUI-Picker-[3D-Objects] -v85**
+
 This project has the basic setup for the NativeUI and uses the events to select one of three cubes, then change a material on the selected cube and rotate the cube
 
 **NativeUI-Picker-[Facemesh] -v85**
+
 This project has the basic setup for the NativeUI and uses the events to show one of three facemesh
 
 **NativeUI-Picker-[Patch Editor] -v85**
+
 This project has the basic setup for the NativeUI and connects it to the Patch Editor. The selectedIndex is passed through a patch graph and animates the plane when selecting/deselecting the second button
 
 ## Credits

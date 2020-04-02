@@ -114,5 +114,8 @@ Promise.all([
 // compression is disabled on any textures that you are using for
 // the NativeUI. Sometimes they can get switched back.
 
-// Remeber, everything starts at a 0 index, not 1. Sometimes this
+// Remember, everything starts at a 0 index, not 1. Sometimes this
 // can be tricky and you might load an incorrect asset.
+
+// If you have copied this script and are getting an error, make sure
+// the NativeUI Picker is enabled in your Project's Capabilities.

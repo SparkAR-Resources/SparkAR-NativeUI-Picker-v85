@@ -8,7 +8,8 @@ This is meant to be a boilerplate for new users or non-scripters to start using 
 
 ## Credits
 
-Thanks to Lasse Mejlvang Tvedt ( @lassemt ) for jumping into this before everyone else.
+Thanks to Lasse Mejlvang Tvedt ( @lassemt ) for jumping on some of these updates before everyone else.
+Thanks to Josh Beckwith ( @positlabs ) for, well, being amazing.
 
 ## Resources
 

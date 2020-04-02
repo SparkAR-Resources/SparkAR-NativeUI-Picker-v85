@@ -84,7 +84,7 @@ Promise.all([
       facemesh1.hidden = true;
       facemesh2.hidden = true;
 
-      // When a button is selected, we select a corresponding plane.
+      // When a button is selected, we show the corresponding facemesh.
       // Using the index of the selected button (0,1,2,etc), we can
       // use build switches all sorts of ways.
       // In this example, we are going to keep it dead simple with a JS switch.

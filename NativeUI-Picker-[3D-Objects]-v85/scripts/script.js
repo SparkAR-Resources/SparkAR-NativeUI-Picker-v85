@@ -77,7 +77,7 @@ Promise.all([
         {image_texture: button3}
       ],
 
-      // These are the materials we are switching between on the plane
+      // These are the materials we are switching between on the cubes
       mats: [
         {material: red},
         {material: green},
@@ -98,7 +98,7 @@ Promise.all([
     // This is a monitor that watches for the picker to be used.
     picker.selectedIndex.monitor().subscribe(function(val) {
 
-      // When a button is selected, we select a corresponding plane.
+      // When a button is selected, we select a corresponding cube.
       // Using the index of the selected button (0,1,2,etc), we can
       // use build switches all sorts of ways.
       // In this example, we are going to keep it dead simple with a JS switch.

@@ -1,4 +1,4 @@
-// Patch Editor - NativeUI Picker example v85
+// Selected Value - NativeUI Picker example v85
 // by Luke Hurd :: @lukehurd
 
 // WHAT HAS CHANGED FROM PREVIOUS VERSIONS//
@@ -15,9 +15,6 @@ const Scene = require('Scene');
 const Materials = require('Materials');
 const NativeUI = require('NativeUI');
 const Textures = require('Textures');
-
-// Load the Patches moddule so that we can connect to the Patch Editor
-const Patches = require('Patches');
 
 // First, we create a Promise and load all the assets we need for our scene
 // The following example shows how to load Textures, Materials, and an Object.
@@ -64,9 +61,9 @@ Promise.all([
     const configuration = {
 
       // This index controls where the NativeUI Picker starts.
-      // Let's keep things simple for now and start on the first 
-      // button, so we keep it at 0. Remember most things start at 0, not 1.
-      selectedIndex: 0,
+      // In this example, we want to start on the second button,
+      // not the first. So we pass the initial value of "1" (which is the second button)
+      selectedIndex: 1,
 
       // These are the image textures to use as the buttons in the NativeUI Picker
       items: [
@@ -94,15 +91,15 @@ Promise.all([
     picker.visible = true;
 
     // This is a monitor that watches for the picker to be used.
-    picker.selectedIndex.monitor().subscribe(function(val) {
+    // This is also where the magic happens for the initial selected value.
+    // Notice the "fireOnInitialValue" attribute we are passing - this lets Spark know
+    // to fire this monitor and pass the value right when the filter loads
+    picker.selectedIndex.monitor({fireOnInitialValue: true}).subscribe(function(val) {
 
       // When a button is selected, we select the corresponding material.
       // When they pick the first button then the first material loads, etc
       
       plane.material = configuration.mats[val.newValue].material
-
-      //Pass the index to the Patch Editor so we can animate things
-      Patches.inputs.setScalar('selectedIndex', val.newValue);
     
     });
 

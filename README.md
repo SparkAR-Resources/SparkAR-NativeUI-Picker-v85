@@ -32,6 +32,11 @@ This project has the basic setup for the NativeUI Picker and uses the events to 
 
 This project has the basic setup for the NativeUI Picker and connects it to the Patch Editor. The selectedIndex is passed through a patch graph and animates the plane when selecting/deselecting the second button
 
+
+**NativeUI-Picker-[Selected Value] -v85**
+
+This project has the basic setup for the NativeUI Picker using the Patch Editor bridge and demonstrates how to set the second button to be the default "first" selected value when the filter loads
+
 ## Credits
 
 Thanks to Lasse Mejlvang Tvedt ( @lassemt ) for jumping on some of these updates before everyone else.

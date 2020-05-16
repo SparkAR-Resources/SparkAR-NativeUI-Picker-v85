@@ -28,10 +28,13 @@ This project has the basic setup for the NativeUI Picker and uses the events to 
 
 This project has the basic setup for the NativeUI Picker and uses the events to show one of three facemesh
 
+**NativeUI-Picker-[Hide and Show] -v85**
+
+This project has demonstrates the basic methods of showing, hiding, and updating the configuration for the NativeUI with an event. In this example, we are hiding the NativeUI on the back camera.
+
 **NativeUI-Picker-[Patch Editor] -v85**
 
 This project has the basic setup for the NativeUI Picker and connects it to the Patch Editor. The selectedIndex is passed through a patch graph and animates the plane when selecting/deselecting the second button
-
 
 **NativeUI-Picker-[Selected Value] -v85**
 

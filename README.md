@@ -4,7 +4,7 @@
 
 ⚠️ MAKE SURE THE NATIVEUI PICKER IS ENABLED IN YOUR PROJECT CAPABILITIES ⚠️
 
-This is meant to be a boilerplate for new users or non-scripters to start using Spark AR's NativeUI Picker fur their Instagram effects. It takes into account the changes to Spark AR v85+ API and uses Promises to load assets. It is not meant to be a comprehensive exploration into ES6, Spark AR, or writing performant code. This is meant to educate and - hopefully - inspire others to continue learning about how to leverage scripting in their effects.
+This is meant to be a boilerplate for new users or non-scripters to start using Spark AR's NativeUI Picker for their Instagram effects. It takes into account the changes to Spark AR v85+ API and uses Promises to load assets. It is not meant to be a comprehensive exploration into ES6, Spark AR, or writing performant code. This is meant to educate and - hopefully - inspire others to continue learning about how to leverage scripting in their effects.
 
 ## What's Included
 
